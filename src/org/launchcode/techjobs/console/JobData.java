@@ -133,8 +133,8 @@ public class JobData {
 
         for (HashMap<String, String> row : allJobs) {
             for (String column : row.keySet()){
-                String columnValue = row.get(column).toLowerCase();
-                if(columnValue.contains(someValue)) {
+                String columnValue = row.get(column);
+                if(columnValue.toLowerCase().contains(someValue.toLowerCase())) {
                     jobs.add(row);
                     break;
                 }

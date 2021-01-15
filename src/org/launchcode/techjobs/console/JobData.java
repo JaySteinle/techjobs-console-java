@@ -126,6 +126,7 @@ public class JobData {
     }
 
     public static ArrayList<HashMap<String, String>> findByValue(String someValue) {
+
         loadData();
 
         ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
@@ -139,6 +140,8 @@ public class JobData {
                 }
             }
         }
+
         return jobs;
+
     }
 }

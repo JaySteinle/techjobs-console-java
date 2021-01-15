@@ -119,7 +119,7 @@ public class TechJobs {
                 for (Map.Entry<String, String> aJob : someJob.entrySet()) {
                     System.out.println(aJob.getKey() + ": " + aJob.getValue());
                 } System.out.println("*****");
-                //              System.out.println("printJobs is not implemented yet");
+                // System.out.println("printJobs is not implemented yet");
             }
         } else {
             System.out.println("There are no jobs found");
